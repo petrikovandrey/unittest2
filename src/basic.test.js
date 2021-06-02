@@ -23,6 +23,6 @@ test("sort descending to Be", () => {
         { name: 'лучник', health: 80 },
     ];
     const result = sortHealth(list);
-   
+
     expect(result[0].name).toBe("маг");
 })
